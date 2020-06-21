@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b075a17c1246434db7dc3bf1a915d748" Name="Diagram1">
+        <EntityTypeShape EntityType="User_reciepeModel.Cuisine" Width="1.5" PointX="1.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="User_reciepeModel.Friend" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="User_reciepeModel.Message" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="User_reciepeModel.Reciepe" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="User_reciepeModel.ReciepeType" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="User_reciepeModel.User" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="User_reciepeModel.FK__Reciepe__Cuisine__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Friend__friend1__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Friend__friend2__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Message__FromId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Message__Reciepe__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Message__ToId__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="User_reciepeModel.FK__Reciepe__TypeId__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

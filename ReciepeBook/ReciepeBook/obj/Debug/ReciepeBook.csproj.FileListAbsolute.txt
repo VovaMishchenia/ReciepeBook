@@ -1,0 +1,88 @@
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.exe.config
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.exe
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.pdb
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Newtonsoft.Json.dll
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Newtonsoft.Json.xml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\App.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_MarkupCompile.cache
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_MarkupCompile.lref
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.g.resources
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.Properties.Resources.resources
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.GenerateResource.cache
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.CoreCompileInputs.cache
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.CopyComplete
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.exe
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.pdb
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.dll
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.SqlServer.dll
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.xml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.SqlServer.xml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_Content.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\MainWindow.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\MainWindow.baml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\System.Windows.Interactivity.dll
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\System.Windows.Interactivity.xml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ReciepeWindow.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ReciepeWindow.baml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\AddReciepeWindow.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\AddReciepeWindow.baml
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ChangeReciepeWindow.g.cs
+F:\VOVA\ШАГ\WPF\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ChangeReciepeWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.exe.config
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.exe
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\ReciepeBook.pdb
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Data_access_layer.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.SqlServer.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\MaterialDesignColors.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Newtonsoft.Json.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\System.Windows.Interactivity.dll
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Data_access_layer.pdb
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Data_access_layer.dll.config
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\EntityFramework.SqlServer.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\MaterialDesignColors.pdb
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\Newtonsoft.Json.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\bin\Debug\System.Windows.Interactivity.xml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csprojAssemblyReference.cache
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\AddReciepeWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ChangeReciepeWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\MainWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ReciepeWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\CreateAccount.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\FriendsWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\LoginUser.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\SendMessageWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\ShowMessageWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\UserWindow.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\App.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_Content.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_MarkupCompile.cache
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook_MarkupCompile.lref
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\App.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\AddReciepeWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ChangeReciepeWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\MainWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\ReciepeWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\CreateAccount.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\FriendsWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\LoginUser.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\SendMessageWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\ShowMessageWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\View\UserClient\UserWindow.baml
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.g.resources
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.Properties.Resources.resources
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.GenerateResource.cache
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.CoreCompileInputs.cache
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.csproj.CopyComplete
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.exe
+F:\VOVA\ШАГ\Мережеве програмування\Книга кулінарних рецептів\ReciepeBook\ReciepeBook\obj\Debug\ReciepeBook.pdb

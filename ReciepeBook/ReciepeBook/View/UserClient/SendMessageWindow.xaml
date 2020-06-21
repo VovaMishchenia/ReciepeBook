@@ -1,0 +1,81 @@
+﻿<Window x:Class="ReciepeBook.View.UserClient.SendMessageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReciepeBook.View.UserClient"
+        mc:Ignorable="d"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="BlanchedAlmond"
+        Title="New Message" Height="450" Width="408.8">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="180*"/>
+            <RowDefinition Height="88*"/>
+        </Grid.RowDefinitions>
+        <TextBox
+  materialDesign:HintAssist.Hint="Кому:"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+  VerticalAlignment="Center"
+            MaxWidth="380"
+            Name="tbTo"  Height="45" Margin="0,8" Grid.ColumnSpan="2"/>
+        <ComboBox Grid.Row="1"
+                  MaxWidth="380"
+                  materialDesign:HintAssist.Hint="Рецепт"
+                  Name="cbReciepe"
+                  materialDesign:HintAssist.HintOpacity=".26"
+                  ItemsSource="{Binding Reciepes}" Grid.ColumnSpan="2">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ReciepeName}"
+                               FontSize="16"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBox Grid.Row="2" Grid.ColumnSpan="2"
+    TextWrapping="Wrap"
+    VerticalAlignment="Stretch"
+    MinWidth="280"
+    AcceptsReturn="True"
+                 Margin="10,10"
+    VerticalScrollBarVisibility="Auto"
+    SpellCheck.IsEnabled="True"
+    materialDesign:HintAssist.Hint="Повідомлення:"
+                 Name="tbText"/>
+
+        <Grid Grid.Row="3" Margin="11,0">
+            <Button
+                Background="LightSalmon"
+    Style="{StaticResource MaterialDesignRaisedLightButton}"
+    Height="40"
+    materialDesign:ButtonAssist.CornerRadius="5"
+    ToolTip="MaterialDesignRaisedLightButton with Round Corners"
+                Name="btnSend"
+                Click="btnSend_Click">
+                <DockPanel>
+                    <TextBlock FontSize="18" Text="Відправити" />
+                    <materialDesign:PackIcon Kind="SendCircleOutline" DockPanel.Dock="Right" Height="25" Width="30" />
+                </DockPanel>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="3" Grid.Column="1" Margin="11,0">
+            <Button
+                Background="LightSalmon"
+    Style="{StaticResource MaterialDesignRaisedLightButton}"
+    Height="40"
+    materialDesign:ButtonAssist.CornerRadius="5"
+    ToolTip="MaterialDesignRaisedLightButton with Round Corners"
+                Name="btnCancle">
+                <TextBlock FontSize="18"
+                     Text="Відміна" />
+            </Button>
+        </Grid>
+    </Grid>
+    
+</Window>

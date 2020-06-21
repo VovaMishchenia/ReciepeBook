@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="User_reciepeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cuisine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CuisineName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Friend">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="friend1" Type="int" />
+    <Property Name="friend2" Type="int" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FromId" Type="int" />
+    <Property Name="ToId" Type="int" />
+    <Property Name="ReciepeId" Type="int" />
+    <Property Name="MessageString" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Reciepe">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReciepeName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ingredients" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhotoPath" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Instruction" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TypeId" Type="int" />
+    <Property Name="CuisineId" Type="int" />
+    <Property Name="CookingTime" Type="int" Nullable="false" />
+    <Property Name="Rating" Type="int" />
+    <Property Name="Calories" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ReciepeType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Friend__friend1__3A81B327">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Friend" Type="Self.Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="friend1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Friend__friend2__3B75D760">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Friend" Type="Self.Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="friend2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__FromId__49C3F6B7">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="FromId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__Reciepe__4BAC3F29">
+    <End Role="Reciepe" Type="Self.Reciepe" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reciepe">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="ReciepeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__ToId__4AB81AF0">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="ToId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reciepe__Cuisine__45F365D3">
+    <End Role="Cuisine" Type="Self.Cuisine" Multiplicity="0..1" />
+    <End Role="Reciepe" Type="Self.Reciepe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuisine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reciepe">
+        <PropertyRef Name="CuisineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reciepe__TypeId__44FF419A">
+    <End Role="ReciepeType" Type="Self.ReciepeType" Multiplicity="0..1" />
+    <End Role="Reciepe" Type="Self.Reciepe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReciepeType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reciepe">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="User_reciepeModelStoreContainer">
+    <EntitySet Name="Cuisine" EntityType="Self.Cuisine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Friend" EntityType="Self.Friend" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reciepe" EntityType="Self.Reciepe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReciepeType" EntityType="Self.ReciepeType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Friend__friend1__3A81B327" Association="Self.FK__Friend__friend1__3A81B327">
+      <End Role="User" EntitySet="User" />
+      <End Role="Friend" EntitySet="Friend" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Friend__friend2__3B75D760" Association="Self.FK__Friend__friend2__3B75D760">
+      <End Role="User" EntitySet="User" />
+      <End Role="Friend" EntitySet="Friend" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__FromId__49C3F6B7" Association="Self.FK__Message__FromId__49C3F6B7">
+      <End Role="User" EntitySet="User" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__Reciepe__4BAC3F29" Association="Self.FK__Message__Reciepe__4BAC3F29">
+      <End Role="Reciepe" EntitySet="Reciepe" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__ToId__4AB81AF0" Association="Self.FK__Message__ToId__4AB81AF0">
+      <End Role="User" EntitySet="User" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reciepe__Cuisine__45F365D3" Association="Self.FK__Reciepe__Cuisine__45F365D3">
+      <End Role="Cuisine" EntitySet="Cuisine" />
+      <End Role="Reciepe" EntitySet="Reciepe" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reciepe__TypeId__44FF419A" Association="Self.FK__Reciepe__TypeId__44FF419A">
+      <End Role="ReciepeType" EntitySet="ReciepeType" />
+      <End Role="Reciepe" EntitySet="Reciepe" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

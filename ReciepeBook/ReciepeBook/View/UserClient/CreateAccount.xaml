@@ -1,0 +1,91 @@
+﻿<Window x:Class="ReciepeBook.View.UserClient.CreateAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReciepeBook.View.UserClient"
+        mc:Ignorable="d"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="BlanchedAlmond"
+        Title="CreateAccount" Height="529.2" Width="476">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="88*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="76*"/>
+        </Grid.RowDefinitions>
+        <Image Source="../../img/main.png" Margin="0 5" Opacity=".8"/>
+        <StackPanel Grid.Row="1" Margin="5">
+            <TextBox
+    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+    VerticalAlignment="Top"
+    AcceptsReturn="True"
+    TextWrapping="Wrap"
+    MaxWidth="400"
+    materialDesign:HintAssist.Hint="E-mail"
+                Name="tbEmail"
+    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignFilledTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Margin="5">
+            <TextBox
+                Name="tbPassword"
+    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+    VerticalAlignment="Top"
+    AcceptsReturn="True"
+    TextWrapping="Wrap"
+    MaxWidth="400"
+    materialDesign:HintAssist.Hint="Пароль"
+    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignFilledTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <StackPanel Grid.Row="3" Margin="5">
+            <TextBox
+                Name="tbName"
+    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+    VerticalAlignment="Top"
+    AcceptsReturn="True"
+    TextWrapping="Wrap"
+    MaxWidth="400"
+    materialDesign:HintAssist.Hint="Ім'я"
+    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignFilledTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <StackPanel Grid.Row="4" Margin="5">
+            <TextBox
+                Name="tbSurname"
+    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+    VerticalAlignment="Top"
+    AcceptsReturn="True"
+    TextWrapping="Wrap"
+    MaxWidth="400"
+    materialDesign:HintAssist.Hint="Прізвище"
+    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignFilledTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <StackPanel Grid.Row="5" Margin="5">
+            <TextBox
+                x:Name="tbPhoneNumber"
+    Style="{StaticResource MaterialDesignFilledTextFieldTextBox}"
+    VerticalAlignment="Top"
+    AcceptsReturn="True"
+    TextWrapping="Wrap"
+    MaxWidth="400"
+    materialDesign:HintAssist.Hint="Номер телефону"
+    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignFilledTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <Grid Grid.Row="6"
+  Width="124">
+            <Button
+                Click="Button_Click"
+    Style="{StaticResource MaterialDesignRaisedLightButton}"
+    Height="50"
+     Background="LightSalmon"
+    materialDesign:ButtonAssist.CornerRadius="5"
+    ToolTip="MaterialDesignRaisedLightButton with Round Corners"
+    materialDesign:ShadowAssist.ShadowDepth="Depth5" Margin="-25,8,-17,9">
+                <TextBlock Text="Зареєструватись" />
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

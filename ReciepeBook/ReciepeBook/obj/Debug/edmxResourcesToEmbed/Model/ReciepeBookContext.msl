@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Сulinary_recipeModelStoreContainer" CdmEntityContainer="Сulinary_recipeEntities">
+    <EntitySetMapping Name="Cuisine">
+      <EntityTypeMapping TypeName="Сulinary_recipeModel.Cuisine">
+        <MappingFragment StoreEntitySet="Cuisine">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CuisineName" ColumnName="CuisineName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reciepe">
+      <EntityTypeMapping TypeName="Сulinary_recipeModel.Reciepe">
+        <MappingFragment StoreEntitySet="Reciepe">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ReciepeName" ColumnName="ReciepeName" />
+          <ScalarProperty Name="Ingredients" ColumnName="Ingredients" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+          <ScalarProperty Name="Instruction" ColumnName="Instruction" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="CuisineId" ColumnName="CuisineId" />
+          <ScalarProperty Name="CookingTime" ColumnName="CookingTime" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Calories" ColumnName="Calories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReciepeType">
+      <EntityTypeMapping TypeName="Сulinary_recipeModel.ReciepeType">
+        <MappingFragment StoreEntitySet="ReciepeType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
